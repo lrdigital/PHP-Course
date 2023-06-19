@@ -19,7 +19,7 @@
     <navigation>
         <ul>
             <li>
-                <a href="index.php">Menu</a>
+                <a href="<?php echo WWW_ROOT . '/staff/index.php'; ?>">Menu</a>
             </li>
         </ul>
     </navigation>
