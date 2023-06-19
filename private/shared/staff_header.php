@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liam's Site - <?php echo $page_title; ?></title>
 
-    <link rel="stylesheet" media="all" href="../stylesheets/staff.css">
+    <link rel="stylesheet" media="all" href="<?php echo url_for('stylesheets/staff.css'); ?>" />
 </head>
 <body>
     <header>
