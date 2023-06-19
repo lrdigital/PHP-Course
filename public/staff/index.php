@@ -1,10 +1,14 @@
+<!-- Site Initialization -->
 <?php require_once('../../private/initialize.php'); ?>
 
+<!-- Page Title includes a default value on the header file -->
 <?php $page_title = 'Staff Menu'; ?>
+<?php include(SHARED_PATH . '/staff_header.php'); ?>
 
-<?php include('../../private/shared/staff_header.php'); ?>
-    <div id="content">
+<!-- Main Content Area -->
+<div id="content">
 
-    </div>
-<?php include('../../private/shared/staff_footer.php'); ?>
-    
+</div>
+
+<!-- Footer -->
+<?php include(SHARED_PATH . '/staff_footer.php'); ?>
