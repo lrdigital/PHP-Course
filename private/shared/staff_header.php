@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liam's Site - <?php echo $page_title; ?></title>
+    <title>Liam's Site - <?php echo h($page_title); ?></title>
 
     <link rel="stylesheet" media="all" href="<?php echo url_for('stylesheets/staff.css'); ?>" />
 </head>
